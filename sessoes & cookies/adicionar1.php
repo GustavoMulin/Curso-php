@@ -1,7 +1,7 @@
 <?php 
 session_name('minha_sessao');
 //Tag para duração do meu cookie. sempre em segundos
-session_set_cookie_params(10);
+session_set_cookie_params(180);
 session_start();
 $_SESSION['nome'] = "Gustavo";
 ?>
