@@ -11,7 +11,7 @@ file_put_contentes()
 // O contéudo vai ser esmagado.
 file_put_contents('file1.txt', 'texto do ficheiro, oiiii');
 
-// se pretendemos adicionar ifnromação ao mesmo
+// se pretendemos adicionar informação ao mesmo
 // ficheiro, usamos o terceiro argumento.
 file_put_contents('file2.txt', time() . PHP_EOL, FILE_APPEND);
 echo 'asdnjasjjjfvakmfklamskljfkalmf';

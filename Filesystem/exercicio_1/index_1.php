@@ -4,6 +4,7 @@ echo '<pre>';
 
 // listagem de ficheiros
 echo __DIR__ . '<br>';
+// scandir: verificar uma pasta
 $files = scandir(__DIR__);  // constante mágica __DIR__
 print_r($files);
 
